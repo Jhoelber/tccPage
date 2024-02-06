@@ -18,6 +18,14 @@
 
 }
 
+.imagempre{
+    padding-right: 1em;
+}
+.textoPre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .posPrefooter {
     margin-top: 2em;
     display: flex;
