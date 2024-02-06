@@ -1,0 +1,67 @@
+.tituloMotorista{
+    display: flex;
+    margin: 0 0 1em 0em;
+    
+}
+
+
+.sectionMotorista{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.motorista{
+display: grid;
+grid-template-columns: 500px 450px;
+gap: 8em;
+
+
+
+}
+
+.borderGrid{
+    border: 3px solid #C8C1C1;
+    border-radius: 22px;
+    padding: 1em 2em 0 0em;
+    
+ 
+    
+}
+.textoMensagemGrid{
+display: flex;
+padding: 5em 0;
+justify-content: center;
+;
+
+}
+
+.textoGRID{
+display: flex;
+margin-top: 2em;
+padding: 1em;
+
+
+
+
+
+}
+.textoMotorista{
+    font-weight: 400;
+    font-size: 20px;
+    color: #7C7C7C;
+display: flex;
+justify-content: center;
+padding-left: 2em;
+
+
+}
+
+.pessoaSegurandoCelular{
+    display: flex;
+    position: absolute;
+    margin-top: 7.0em;
+   
+}
