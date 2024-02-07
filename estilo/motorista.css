@@ -15,7 +15,7 @@ flex-direction: column;
 
 .motorista{
 display: grid;
-grid-template-columns: 500px 450px;
+grid-template-columns: 500px 500px;
 gap: 8em;
 
 
