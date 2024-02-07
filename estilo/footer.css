@@ -1,0 +1,36 @@
+.rodape {
+    background-color: #C4C3C3;
+    color: #fff;
+     padding: 20px;
+        height: 300px;
+        border-top: 1px  solid black;
+
+}
+
+
+.footerConteudo {
+    display: flex;
+    margin-top: 10em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerConteudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.footerImagem{
+    padding: 2em;
+}
+.footerCentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

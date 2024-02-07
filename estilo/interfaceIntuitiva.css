@@ -1,0 +1,96 @@
+.interfaceIntuitiva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    flex-direction: column;
+}
+
+
+
+.gridInterfaceIntuitiva {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    border: 3px solid #C8C1C1;
+    border-radius: 22px;
+    padding: 3em 7em;
+    
+
+}
+.gridInterfaceIntuitiva:hover {
+
+    background-color: #FDF9F9;
+}
+
+
+
+.gridConteudoInterfaceIntuitiva {
+    display: flex;
+    gap: 1em;
+    padding: 5em;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7C7C7C;
+}
+
+.gridConteudoInterfaceIntuitiva1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.sectionBaixoInterfaceIntuitiva{
+display: grid;
+padding: 3em;
+margin: 0 20em;
+grid-template-columns: 500px 500px;
+gap: 8em;
+
+
+}
+.borderInterfaceIntuitiva{
+    border: 3px solid #C8C1C1;
+    border-radius: 22px;
+    padding: 0 3em;
+    padding-top: 1em;
+}
+
+.borderInterfaceIntuitiva:hover{
+background-color: #FDF9F9;
+}
+
+
+
+
+.textoIntefaceIntuitivaBaixo{
+padding-bottom: 1em;
+font-weight: 400;
+    font-size: 16px;
+    color: #7C7C7C;
+    
+}
+
+
+.ImagemIntefaceIntuitivaBaixo{
+
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+padding-top: 3em;
+}
+.mulherNoSofa{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    padding-top: 8em;
+    
+}
+
+.tituloMotorista{
+display: flex;
+justify-content: center;
+align-items: center;
+}
