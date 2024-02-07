@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #7C7C7C;
+
 }
 .posPrefooter {
     margin-top: 2em;
