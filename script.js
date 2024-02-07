@@ -15,7 +15,7 @@ function applyHoverEffect(element, newText) {
     });
 
     element.addEventListener('mouseout', function () {
-        element.style.transition = "opacity 0.5s ease-out";
+        element.style.transition = "opacity 0.3s ease-out";
         element.style.opacity = "0";
         setTimeout(function () {
             element.textContent = originalText;
