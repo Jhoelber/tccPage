@@ -1,0 +1,92 @@
+.PaisagemTopo {
+    display: flex;
+    position: relative;
+
+}
+
+.marcaTopo {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 62px;
+    align-items: center;
+    padding: 1em;
+    font-family: inter;
+
+}
+
+@keyframes slidInLeft {
+
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slidInRigth {
+
+    from {
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.slidInRigth {
+    animation-name: slidInRigth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+
+.slidInLeft {
+    animation-name: slidInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+
+}
+
+.vanCelularTopo {
+    display: flex;
+    position: absolute;
+    padding-top: 150px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-container {
+    opacity: 0;
+}
+
+.visible {
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
