@@ -17,14 +17,14 @@
 <body>
     <section class="PaisagemTopo">
         <img src="imagem/cidadeBackground.png" style=" width: 100%;">
-        <div class="marcaTopo">
+        <div class="marcaTopo vanTopoAnimation" >
             <img src="imagem/marcaTopo.png" alt="">
-            <h1 class="tituloTopo">NotificVans</h1>
+            <h1 class="tituloTopo" >NotificVans</h1>
         </div>
 
         <div class="vanCelularTopo">
-            <img src="imagem/vanTopo.png" alt=" uma pequena van">
-            <img src="imagem/celularTopo.png" alt="Uma das telas do software" style="height: 560px; width: 280px;">
+            <img src="imagem/vanTopo.png" alt=" uma pequena van" class="slidInLeft">
+            <img src="imagem/celularTopo.png" alt="Uma das telas do software" class=" slidInRigth" style="height: 560px; width: 280px;">
         </div>
     </section>
 
@@ -39,7 +39,7 @@
 
                 <div class="conteudoGrid">
                     <img src="imagem/Ampulheta.png" alt="imagem pequena que se refere a uma ampulheta">
-                    <h3 class="fraseDentroGrid">Economizando Tempo</h3>
+                    <h3 class="fraseDentroGrid" id="economizandoTempo">Economizando Tempo</h3>
                 </div>
 
                 <div class="conteudoGrid">
@@ -55,7 +55,7 @@
             </div>
 
             <div class="grid2Facilidades">
-                <img src="imagem/celularTopo.png" alt="" style="height: 565px; width: 280px;">
+                <img src="imagem/celularTopo.png" alt="" id="hiddenImage" style="height: 565px; width: 280px;">
 
             </div>
 
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div>
-                <img src="imagem/celualrInterfaceIntuitiva.png" alt=" Uma das telas do software">
+                <img src="imagem/celularMotorista.png" alt=" Uma das telas do software" style="width: 250px;">
 
             </div>
         </div>
@@ -196,20 +196,20 @@
                                 <div class="conteudoPrefooter">
                                     <img src="imagem/Mensagem.png" alt="" style="width: 55px; height: 55px;" class="imagempre">
 
-                                    <h2 class="textoPre">Visando reduzir os atrasos ocorridos durante
+                                    <h2 class="textoPre" id="textoPre1">Visando reduzir os atrasos ocorridos durante
                                         a corrida a função de ‘notificar passageiro’
                                         foi desenvolvida tornando essencial na rotina do
-                                        motorista</h2>
+                                        motorista.</h2>
                                 </div>
                                 <div class="conteudoPrefooter">
                                     <img src="imagem/Ampulheta.png" alt=""class="imagempre" style="width: 55px; height: 55px;" >
-                                    <h2 class="textoPre">Economizar tempo é economizar combustivel,
-                                        tornando a conta do fim do mês mais barata</h2>
+                                    <h2 class="textoPre" id="textoPre2">Economizar tempo é economizar combustivel,
+                                        tornando a conta mais barata do fim do mês.</h2>
                                 </div>
                                 <div class=" conteudoPrefooter">
                                     <img src="imagem/Segurança.png" alt=""class="imagempre" style="width: 55px; height: 55px;">
-                                    <h2 class="textoPre">As facilidades criadas pelo aplicativo pode ser
-                                        um atrativo e diferencial para seu cliente</h2>
+                                    <h2 class="textoPre" id="textoPre3">As facilidades criadas pelo aplicativo pode ser
+                                        um atrativo e diferencial para seu cliente.</h2>
 
                                 </div>
                             </div>
@@ -257,18 +257,9 @@
             </div>
         </div>
 
-
-
     </footer>
 
-
-
-
-
-
-
-
-
+<script src="script.js"></script>
 </body>
 
 </html>
