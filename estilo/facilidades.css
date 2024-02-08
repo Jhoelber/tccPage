@@ -47,7 +47,9 @@
         margin-left: 3em;
     }
     
-    
+    .celularPequenoFacilidades2{
+        display:none;
+    }
     @media screen and (max-width: 431px) {
      
     
