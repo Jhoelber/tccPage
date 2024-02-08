@@ -97,9 +97,47 @@ align-items: center;
 
 
 @media screen and (max-width: 431px) {
+    
+    .celularInterfaceIntuitiva{
+        display: none;
+    }
 
 
 
+
+.gridInterfaceIntuitiva {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 4em;
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 0px solid #C8C1C1;
+    border-radius: 22px;
+    padding: 0em 0em;
+    
+
+}
+.gridConteudoInterfaceIntuitiva{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+   
+}
+
+.gridConteudoInterfaceIntuitiva1 {
+    display: flex;
+    padding: 0em;
+    
+    
+    
+}
+
+.tituloGrid{
+    width: 200px;
+}
 
 
 }
