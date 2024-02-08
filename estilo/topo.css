@@ -2,6 +2,11 @@
     display: flex;
     position: relative;
 
+
+}
+
+.mediaQueryVanTopo {
+    display: none;
 }
 
 .marcaTopo {
@@ -13,6 +18,7 @@
     align-items: center;
     padding: 1em;
     font-family: inter;
+
 
 }
 
@@ -63,13 +69,16 @@
 .vanCelularTopo {
     display: flex;
     position: absolute;
-    padding-top: 150px;
-    padding: 100px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;
-    
+
 
 }
+
+
 
 .image-container {
     opacity: 0;
@@ -89,5 +98,42 @@
     }
 }
 
+@media screen and (min-width: 1980px) {
+    .vanCelularTopo {
+        top: 85%;
+        /* ajuste a porcentagem para uma posição diferente em telas menores */
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .vanCelularTopNone {
+        display: none;
+    }
 
 
+    .marcaTopo {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        align-items: center;
+        padding: 1em;
+        font-family: inter;
+    }
+
+    .PaisagemTopo {
+        width: 900px;
+
+    }
+
+    .mediaQueryVanTopo {
+        display: block;
+
+        display: flex;
+        margin-top: 4em;
+        
+        
+        justify-content: center;
+        align-items: center;
+
+    }
+}
