@@ -56,13 +56,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-margin-left: 900px;
+
 
 }
 
 .tituloFacilidades{
     width: 700px;
-   
+   margin-left: 900px;
     font-size: 44px;
     
     }
