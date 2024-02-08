@@ -1,0 +1,16 @@
+@import url(topo.css);
+@import url(facilidades.css);
+@import url(interfaceIntuitiva.css);
+@import url(motorista.css);
+@import url(prefooter.css);
+@import url(footer.css);
+@import url(reset.css);
+body{
+    font-family: 'Inter', sans-serif;
+
+    
+}
+
+
+
+
