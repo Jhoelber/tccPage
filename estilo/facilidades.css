@@ -1,0 +1,170 @@
+.facilidadesParaSeuDiaDia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 13em;
+    
+    }
+    .tituloFacilidades{
+        font-size: 44px;
+    }
+    
+    
+    .gridFacilidadesParaSeuDiaDia{
+        display: grid;
+        grid-template-columns: 250px 1fr 300px;
+        margin-top: 3em;
+        border: 3px solid #C8C1C1;
+        border-radius: 22px;
+        padding: 2em;
+        justify-content: space-between;
+        padding: 5em;
+        
+      
+    }
+    .gridFacilidadesParaSeuDiaDia:hover{
+    background-color: #FDF9F9;
+     }
+     
+    .conteudoGrid{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+        margin-top: 3em;
+        font-weight: 400;
+        font-size: 16px;
+        color:black;
+        
+    }
+    
+    .grid1Facilidades, .grid3Facilidades{
+    padding-top: 4em;
+    
+    }
+    .grid3Facilidades{
+        margin-left: 3em;
+    }
+    .grid2FacilidadesMediaQuery{
+        display: none;
+    }
+    .retirarGrande{
+        display: none;
+    }
+    
+    @media screen and (max-width: 431px) {
+     .grid2FacilidadesMediaQuery{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .tituloFacilidades2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    }
+
+.grid1Facilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+    
+    .tituloFacilidades{
+        
+    font-size: 26px;
+    }
+    .gridFacilidadesParaSeuDiaDia{
+
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0fr;
+        justify-content: space-between;
+        border: 2px solid #7C7C7C;
+        border-radius: 0px;
+        
+        padding: 1em;
+        
+        
+        
+
+    }
+    .grid2Facilidades{
+        display: none;
+    }
+
+    .grid3Facilidades{
+        margin-left: 2em;
+
+
+    }
+    .celularPequenoFacilidades2{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0e;
+    }
+
+   
+    .imagemDentroGRID{
+        width: 26px;
+    }
+
+    .conteudoGrid{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+        margin-top: 0em;
+        margin-left: 2em;
+        font-weight: 400;
+        font-size: 12px;
+        color: #7C7C7C;
+        
+    }
+    .gridFacilidadesParaSeuDiaDia:hover{
+        background-color: rgba(254, 254, 254, 0);
+         }
+
+
+         .facilidadesParaSeuDiaDia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 4em;
+            
+            }
+   
+
+
+            .retirarCelular{
+                display: none;
+            }
+
+            .fraseDentroGrid{
+                width: 100px;
+            }
+
+
+            .grid3Facilidades{
+               display: none;
+            }
+    }
+    
+    
+    
+    
+    
