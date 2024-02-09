@@ -98,6 +98,13 @@
     }
 }
 
+
+
+.fade-in-image { animation: fadeIn 3s; }
+
+
+
+
 @media screen and (min-width: 1980px) {
     .vanCelularTopo {
         top: 85%;
