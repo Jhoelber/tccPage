@@ -1,0 +1,149 @@
+.preFooter {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 800px;
+    border: 3px solid #C8C1C1;
+    border-radius: 22px;
+    padding: 3em;
+
+}
+
+.preFooter:hover {
+    background-color: #FDF9F9;
+}
+
+
+
+.preFooterGrid1 {
+    display: flex;
+}
+
+.conteudoPrefooter {
+    display: flex;
+    padding: 3em;
+
+}
+
+.imagempre{
+    padding-right: 1em;
+}
+.textoPre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C7C;
+    
+
+}
+.posPrefooter {
+    margin-top: 2em;
+    display: flex;
+
+}
+
+.posPrefooter1,
+.posPrefooter2 {
+    border: 3px solid #C8C1C1;
+    border-radius: 22px;
+    font-size: 28px;
+    padding: .5em;
+    width: 370px;
+    margin: 1em;
+    font-size: 28px;
+    color: #7C7C7C;
+
+}
+
+
+.posPrefooter1:hover {
+    background-color: #FDF9F9;
+    transform: scale(1.1);
+}
+
+.posPrefooter2:hover {
+    background-color: #FDF9F9;
+  transform: scale(1.1);
+}
+
+.CorDiferente {
+    font-size: 60px;
+    color: #03A0D5;
+
+}
+
+#hoverText {
+    font-size: 24px;
+    padding: 20px;
+    border: 2px solid black;
+    width: fit-content;
+    transition: opacity 10s;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+
+.celularpequenofacilidadesgrid{
+    display: none;
+}
+  @media screen and (max-width: 431px) {
+
+    .preFooter {
+        margin-top: 2em;
+        border: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 2px solid #7C7C7C;
+        border-bottom: 2px solid #7C7C7C;
+        border-radius: 0px;
+        padding: 0px;
+    
+    }
+.celularGrande{
+    display: none;
+}
+.celularpequenofacilidadesgrid{
+    display: block;
+    
+    padding: 1em;
+}
+
+.conteudoPrefooter {
+    display: flex;
+    padding: 2em;
+
+}
+.conteudoPrefooter {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 1em;
+    font-size: 12px;
+
+}
+
+.textoPre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C7C;
+    margin-top: 1em;
+    
+
+}
+.posPrefooter1,
+.posPrefooter2 {
+    border: 2px solid #C8C1C1;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: .5em;
+    width: 150px;
+    color: #7C7C7C;
+
+}
+.CorDiferente {
+    font-size: 22px;
+    color: #03A0D5;
+
+}
+  }
