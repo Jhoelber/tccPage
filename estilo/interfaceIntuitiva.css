@@ -100,7 +100,7 @@ animation: flutuar 2s infinite alternate
 .telaPiscando{
     position: absolute;
     transform: translate(-327%,-670%);
-    animation: fadeIn .9s infinite alternate;
+    animation: fadeIn 1s infinite alternate;
 }
 
 
