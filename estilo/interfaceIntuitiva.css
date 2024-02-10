@@ -127,11 +127,21 @@ animation: flutuar 2s infinite alternate
 
     display: none;
 }
+.telaPiscandoPequena{
+   display: none;
+}
 
 @media screen and (max-width: 431px) {
 
-
-
+    .telaPiscando{
+        display: none;
+    }
+.telaPiscandoPequena{
+    display: block;
+    position: absolute;
+    transform: translate(-327%,-670%);
+    animation: fadeIn 1s infinite alternate;
+}
     
     .celularInterfaceIntuitiva {
         display: none;
