@@ -1,39 +1,68 @@
-window.sr= ScrollReveal({reset:true});
+window.sr = ScrollReveal({ reset: true });
 
 sr.reveal('.imagemBackground', {
-    rotate: {x: 30, y:0, z:0},
+    rotate: { x: 30, y: 0, z: 0 },
     duration: 1000,
-    distance:'50px'
+    distance: '50px'
 
 });
 
 
 
 sr.reveal('.tituloFacilidades', {
-    rotate: {x: 0, y:20, z:0},
+    rotate: { x: 0, y: 20, z: 0 },
     duration: 2000,
-    distance:'20px'
+    distance: '20px'
 
 });
 sr.reveal('.fraseDentroGrid', {
-    rotate: {x: 0, y:40, z:0},
+    rotate: { x: 0, y: 40, z: 0 },
     duration: 1500,
-    distance:'90px'
+    distance: '90px'
 
 });
 sr.reveal('.imagemDentroGRID', {
-    rotate: {x: 0, y:40, z:0},
+    rotate: { x: 0, y: 40, z: 0 },
     duration: 1000,
-    distance:'90px'
+    distance: '90px'
 
 });
+
+const bntDarkmode = document.getElementById('botao');
+const themeSystem = localStorage.getItem("themeSystem") || "light";
+
+bntDarkmode.addEventListener('click', () =>{
+let temaAntigo =localStorage.getItem("themeSystem") || "light";;
+let temaNovo = temaAntigo =="light" ? "dark" :"light" ;
+localStorage.setItem('themeSystem', temaNovo);
+defineCurrentTheme(temaNovo);
+})
+
+function defineCurrentTheme(theme) {
+    const darkIcon = "<img src='./imagem/lua.png'>"
+    const lightIcon = "<img src='./imagem/sol.png'>"
+    document.documentElement.setAttribute("data-theme", theme);
+    if (theme == "light") {
+        bntDarkmode.innerHTML = darkIcon;
+        bntDarkmode.style.backgroundColor = "#b3219a";
+        bntDarkmode.style.padding = " 1em 1em 1em 6em";
+    } else {
+        bntDarkmode.innerHTML = lightIcon;
+        bntDarkmode.style.backgroundColor = "#e2ea929d";
+        bntDarkmode.style.padding = " 1em 6em 1em  1em";
+    }
+
+
+}
+defineCurrentTheme(themeSystem);
+
 
 
 
 
 function applyHoverEffect(element, newText) {
     const originalText = element.textContent;
-    
+
 
     element.addEventListener('mouseover', function () {
         element.style.transition = "opacity 0.5s ease-out";
@@ -68,25 +97,24 @@ applyHoverEffect(textPre2, "Imagine a seguinte situação: Você faz uma corrida
 const textPre3 = document.getElementById('textoPre3');
 applyHoverEffect(textPre3, "Todo diferencial conta e poder proporcionar comodidades ao seu cliente é um diferencial muito grande e para isso poderá contar conosco, nossas funções iram auxiliar no seu dia dia e do seu cliente.");
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     var image = document.getElementById('hiddenImage');
     var imagePosition = image.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
-  
+
     if (imagePosition < windowHeight) {
-      image.classList.add('visible');
+        image.classList.add('visible');
     }
-  });
+});
 
-  const containerImagem = document.getElementById('container-imagem');
-  const mensagem = document.getElementById('mensagem');
-  
-  containerImagem.addEventListener('mouseover', () => {
-      mensagem.style.display = 'block';
-  });
-  
-  containerImagem.addEventListener('mouseout', () => {
-      mensagem.style.display = 'none';
-  });
+const containerImagem = document.getElementById('container-imagem');
+const mensagem = document.getElementById('mensagem');
 
- 
+containerImagem.addEventListener('mouseover', () => {
+    mensagem.style.display = 'block';
+});
+
+containerImagem.addEventListener('mouseout', () => {
+    mensagem.style.display = 'none';
+});
+
