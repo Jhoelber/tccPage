@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" href="estilo/reset.css">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>NotificVans</title>
 </head>
 
 <body>
     <section class="PaisagemTopo">
-        <img src="imagem/cidadeBackground.png" style=" width: 100%;" class="fade-in-image">
+        <img src="imagem/cidadeBackground.png" style=" width: 100%;" class="imagemBackground">
         <div class="marcaTopo vanTopoAnimation " id="hiddenImage">
             <img src="imagem/marcaTopo.png" alt="Logotipo do aplicativo">
             <h1 class="tituloTopo ">NotificVans</h1>
@@ -118,17 +119,19 @@
     </section>
 
     <section class="interfaceIntuitiva">
-        <h2 class="tituloInterfaceIntuitiva tituloFacilidades">Interface Intuitiva</h2>
-        <div class="gridInterfaceIntuitiva">
+        <div class="testeTransicacao">
+        <h2 class="tituloInterfaceIntuitiva tituloFacilidades headline ">Interface Intuitiva</h2>
+        </div>
+        <div class="gridInterfaceIntuitiva ">
 
             <div class="gridConteudoInterfaceIntuitiva1">
                 <div class="gridConteudoInterfaceIntuitiva">
                     <img src="imagem/Mensagem.png" alt="imagem que se refere a mensagem" class="imagemDentroGRID">
-                    <h2 class="tituloGrid">A interação com o motorista visa ser o mais direta e simples possivel</h2>
+                    <h2 class="tituloGrid fraseDentroGrid">A interação com o motorista visa ser o mais direta e simples possivel</h2>
                 </div>
                 <div class="gridConteudoInterfaceIntuitiva">
                     <img src="imagem/Celular.png" alt="imagem que se refere a um celular" class="imagemDentroGRID">
-                    <h2 class="tituloGrid">Com interfaces simples e
+                    <h2 class="tituloGrid fraseDentroGrid">Com interfaces simples e
                         intuitivas trazendo algumas
                         confirmações rapidas
                         em apenas dois cliques</h2>
@@ -152,7 +155,7 @@
                 <div class="IntefaceIntuitivaBaixo">
                     <img src="imagem/Segurança.png" alt=" logo segurança"
                         class="textoIntefaceIntuitivaBaixo imagemDentroGRID"">
-                    <h2 class=" textoIntefaceIntuitivaBaixo">Chega de esperar fora da sua residencia</h2>
+                    <h2 class=" textoIntefaceIntuitivaBaixo fraseDentroGrid">Chega de esperar fora da sua residencia</h2>
                 </div>
                 <div class="ImagemIntefaceIntuitivaBaixo">
                     <img src="imagem/bandido.png" alt="Bandido atras de um ponto de onibus com pessoas distraidas"
@@ -166,7 +169,7 @@
             <div class="borderInterfaceIntuitiva">
                 <div class="IntefaceIntuitivaBaixo">
                     <img src="imagem/Mensagem.png" alt="imagem que se refere a mensagem"
-                        class="textoIntefaceIntuitivaBaixo imagemDentroGRID"">
+                        class="textoIntefaceIntuitivaBaixo imagemDentroGRID fraseDentroGrid">
                         <h2 class=" textoIntefaceIntuitivaBaixo">Fique no conforto da sua casa
                     pois o aplicativo ira avisar quando seu transporte estiver chegando</h2>
                 </div>
@@ -174,8 +177,8 @@
                     <img src="imagem/mulherNoSofa.png" alt=" Mulher mexendo no celular deitada no celular"
                         class="  mulherNoSofa" style="width: 400px;"">
                         <img src=" imagem/mulherNoSofaPequeno.png" alt="" class="mulherNoSofaPequeno">
-                        <img src="imagem/telaPiscando.png" alt="" class="telaPiscando">
-                        <img src="imagem/telaPiscandoTelaPequena.png" alt="" class="telaPiscandoPequena">
+                    <img src="imagem/telaPiscando.png" alt="" class="telaPiscando">
+                    <img src="imagem/telaPiscandoTelaPequena.png" alt="" class="telaPiscandoPequena">
                 </div>
 
             </div>
@@ -192,7 +195,7 @@
         <div class="motorista">
             <div class="borderGrid">
                 <div>
-                    <h2 class="textoMotorista">A ideia de criar um aplicativo voltado para vans surgiu
+                    <h2 class="textoMotorista fraseDentroGrid">A ideia de criar um aplicativo voltado para vans surgiu
                         atraves de uma necessidade observada no
                         dia dia, tanto pelos motoristas quanto por passageiros</h2>
                 </div>
@@ -202,14 +205,14 @@
                     <div class="borderGrid  celularPequenoGrid">
                         <div class="textoGRID">
                             <img src="imagem/user.png" alt="imagem com alusao ao usuario" class="imagemDentroGRID">
-                            <h2 class="textoMotorista">Confirmação de viagem pelo
+                            <h2 class="textoMotorista fraseDentroGrid">Confirmação de viagem pelo
                                 passageiro horas antes do trajeto iniciar</h2>
                         </div>
                         <div class="textoGRID ">
                             <div class="textoMensagemGrid ">
                                 <img src="imagem/Mensagem.png" alt="imagem com alusao a uma mensagem"
                                     class="imagemDentroGRID ">
-                                <h2 class="textoMotorista ">Notificar o passageiro quando o transporte estiver perto
+                                <h2 class="textoMotorista fraseDentroGrid">Notificar o passageiro quando o transporte estiver perto
                                     do
                                     ponto combinado</h2>
                             </div>
@@ -217,7 +220,7 @@
                         <div class="textoGRID">
                             <img src="imagem/Segurança.png" alt="imagem com alusao a segurança"
                                 class="imagemDentroGRID">
-                            <h2 class="textoMotorista">
+                            <h2 class="textoMotorista fraseDentroGrid">
                                 Verificação da quantidade de alunos que iram naquele dia
                             </h2>
                         </div>
@@ -230,20 +233,20 @@
             <div class="borderGrid textoGrande">
                 <div class="textoGRID">
                     <img src="imagem/user.png" alt="imagem com alusao ao usuario" class="imagemDentroGRID">
-                    <h2 class="textoMotorista">Confirmação de viagem pelo
+                    <h2 class="textoMotorista fraseDentroGrid">Confirmação de viagem pelo
                         passageiro horas antes do trajeto iniciar</h2>
                 </div>
                 <div class="textoGRID ">
                     <div class="textoMensagemGrid">
                         <img src="imagem/Mensagem.png" alt="imagem com alusao a uma mensagem" class="imagemDentroGRID">
-                        <h2 class="textoMotorista ">Notificar o passageiro quando o transporte estiver perto
+                        <h2 class="textoMotorista fraseDentroGrid ">Notificar o passageiro quando o transporte estiver perto
                             do
                             ponto combinado</h2>
                     </div>
                 </div>
                 <div class="textoGRID">
                     <img src="imagem/Segurança.png" alt="imagem com alusao a segurança" class="imagemDentroGRID">
-                    <h2 class="textoMotorista">
+                    <h2 class="textoMotorista fraseDentroGrid">
                         Verificação da quantidade de alunos que iram naquele dia
                     </h2>
                 </div>
@@ -257,61 +260,64 @@
 
 
 
-
         <div class="preFooter">
             <div class="preFooterGrid1">
-                <img src="imagem/celularMotorista.png" "
-                                alt=" a imagem de uma celular no aplicativo" class="celularGrande">
+                <div class="fazendo teste">
+                    <img src="imagem/celualrInterfaceIntuitiva.png" "
+                                alt=" a imagem de uma celular no aplicativo" class="celularGrande"
+                        style="width: 300px;">
+                     
+                </div>
                 <div class="alinharItens">
 
-                    <div class="conteudoPrefooter" >
+                    <div class="conteudoPrefooter">
                         <img src="imagem/Mensagem.png" alt="uma pequena imagem que remete a mensagem"
                             class=" imagemDentroGRID ">
 
-                        <h2 class="textoPre" id="textoPre1">Visando reduzir os atrasos ocorridos durante
+                        <h2 class="textoPre fraseDentroGrid" id="textoPre1">Visando reduzir os atrasos ocorridos durante
                             a corrida a função de ‘notificar passageiro’
                             foi desenvolvida tornando essencial na rotina do
                             motorista.</h2>
-                            
-                            <div class="container">
-                                <div class="elemento-com-dica" data-dica="Texto da dica aqui">
-                                    <img  src="imagem/cursorDedo2.png" alt="">
-                                </div>
-                                <div class="dica" id="dica">
-                                  Passe o mouse ou clique no texto para saber mais
-                                </div>
-                              </div>
+
+                        <div class="container">
+                            <div class="elemento-com-dica" data-dica="Texto da dica aqui">
+                                <img src="imagem/cursorDedo2.png" alt="">
+                            </div>
+                            <div class="dica " id="dica">
+                                Passe o mouse ou clique no texto para saber mais
+                            </div>
+                        </div>
                     </div>
-                    
+
                     <div class="conteudoPrefooter">
                         <img src="imagem/Ampulheta.png" alt="uma pequena imagem que remete a uma ampulheta"
                             class=" imagemDentroGRID ">
-                        <h2 class="textoPre" id="textoPre2">Economizar tempo é economizar combustivel,
+                        <h2 class="textoPre fraseDentroGrid" id="textoPre2">Economizar tempo é economizar combustivel,
                             tornando a conta mais barata do fim do mês.</h2>
-                            <div class="container">
-                                <div class="elemento-com-dica" data-dica="Texto da dica aqui">
-                                    <img src="imagem/cursorDedo2.png" alt="">
-                                </div>
-                                <div class="dica" id="dica">
-                                  Passe o mouse ou clique no texto para saber mais
-                                </div>
-                              </div>
-                            
+                        <div class="container">
+                            <div class="elemento-com-dica" data-dica="Texto da dica aqui">
+                                <img src="imagem/cursorDedo2.png" alt="">
+                            </div>
+                            <div class="dica" id="dica">
+                                Passe o mouse ou clique no texto para saber mais
+                            </div>
+                        </div>
+
                     </div>
                     <div class=" conteudoPrefooter">
                         <img src="imagem/Segurança.png" alt="uma pequena imagem que remete a segurança"
                             class=" imagemDentroGRID">
-                        <h2 class="textoPre" id="textoPre3">As facilidades criadas pelo aplicativo pode ser
+                        <h2 class="textoPre fraseDentroGrid" id="textoPre3">As facilidades criadas pelo aplicativo pode ser
                             um atrativo e diferencial para seu cliente.</h2>
-                            
-                            <div class="container">
-                                <div class="elemento-com-dica" data-dica="Texto da dica aqui">
-                                    <img src="imagem/cursorDedo2.png" alt="">
-                                </div>
-                                <div class="dica" id="dica">
-                                  Passe o mouse ou clique no texto para saber mais
-                                </div>
-                              </div>
+
+                        <div class="container">
+                            <div class="elemento-com-dica" data-dica="Texto da dica aqui">
+                                <img src="imagem/cursorDedo2.png" alt="">
+                            </div>
+                            <div class="dica" id="dica">
+                                Passe o mouse ou clique no texto para saber mais
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -335,9 +341,9 @@
         </div>
         <div class="mouse-topo">
             <div>
-            <img src="imagem/MouseSimple.jpg" alt="" class="mouse">
-            <img src="imagem/Scroll.png" alt="" class="scroll">
-        </div>
+                <img src="imagem/MouseSimple.jpg" alt="" class="mouse">
+                <img src="imagem/Scroll.png" alt="" class="scroll">
+            </div>
         </div>
 
     </section>
