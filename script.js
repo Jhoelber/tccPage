@@ -1,3 +1,36 @@
+window.sr= ScrollReveal({reset:true});
+
+sr.reveal('.imagemBackground', {
+    rotate: {x: 30, y:0, z:0},
+    duration: 1000,
+    distance:'50px'
+
+});
+
+
+
+sr.reveal('.tituloFacilidades', {
+    rotate: {x: 0, y:20, z:0},
+    duration: 2000,
+    distance:'20px'
+
+});
+sr.reveal('.fraseDentroGrid', {
+    rotate: {x: 0, y:40, z:0},
+    duration: 1500,
+    distance:'90px'
+
+});
+sr.reveal('.imagemDentroGRID', {
+    rotate: {x: 0, y:40, z:0},
+    duration: 1000,
+    distance:'90px'
+
+});
+
+
+
+
 function applyHoverEffect(element, newText) {
     const originalText = element.textContent;
     
@@ -45,4 +78,15 @@ window.addEventListener('scroll', function() {
     }
   });
 
+  const containerImagem = document.getElementById('container-imagem');
+  const mensagem = document.getElementById('mensagem');
   
+  containerImagem.addEventListener('mouseover', () => {
+      mensagem.style.display = 'block';
+  });
+  
+  containerImagem.addEventListener('mouseout', () => {
+      mensagem.style.display = 'none';
+  });
+
+ 
