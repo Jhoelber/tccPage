@@ -47,17 +47,17 @@ defineCurrentTheme(temaNovo);
 })
 
 function defineCurrentTheme(theme) {
-    const darkIcon = "<img src='./imagem/lua.png'>"
-    const lightIcon = "<img src='./imagem/sol.png'>"
+    const darkIcon = "<img src='./imagem/nuvens.png'>"
+    const lightIcon = "<img src='./imagem/nuvens.png'>"
     document.documentElement.setAttribute("data-theme", theme);
     if (theme == "light") {
         bntDarkmode.innerHTML = darkIcon;
-        bntDarkmode.style.backgroundColor = "#b3219a";
-        bntDarkmode.style.padding = " 1em 1em 1em 6em";
+        bntDarkmode.style.backgroundColor = "#000000";
+       
     } else {
         bntDarkmode.innerHTML = lightIcon;
-        bntDarkmode.style.backgroundColor = "#e2ea929d";
-        bntDarkmode.style.padding = " 1em 6em 1em  1em";
+               bntDarkmode.style.backgroundColor = "#4a9ddd";
+       
     }
 
 
