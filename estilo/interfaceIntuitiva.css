@@ -1,0 +1,263 @@
+.interfaceIntuitiva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    flex-direction: column;
+}
+.celularInterfaceIntuitiva{
+animation: flutuar 2s infinite alternate 
+                cubic-bezier(0.5, 0.05, 0.1, 0.3);
+                filter: drop-shadow(5px 10px 10px rgba(0,0,0,0.5));
+}
+
+
+.gridInterfaceIntuitiva {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    border: 3px solid var(--cor-borda);;
+    border-radius: 22px;
+    padding: 3em 7em;
+
+
+}
+
+.gridInterfaceIntuitiva:hover {
+
+    background-color: var(--cor-hover);;
+}
+
+
+
+.gridConteudoInterfaceIntuitiva {
+    display: flex;
+    gap: 1em;
+    padding: 5em;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-texto);
+}
+
+.gridConteudoInterfaceIntuitiva1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+
+
+.sectionBaixoInterfaceIntuitiva {
+    display: grid;
+    padding: 3em;
+    margin: 0 20em;
+    grid-template-columns: 500px 500px;
+    gap: 8em;
+
+
+}
+
+.borderInterfaceIntuitiva {
+    border: 3px solid var(--cor-borda);
+    border-radius: 22px;
+    padding: 0 3em;
+    padding-top: 1em;
+}
+
+.borderInterfaceIntuitiva:hover {
+    background-color: var(--cor-hover);
+}
+
+
+
+
+.textoIntefaceIntuitivaBaixo {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-texto);;
+
+}
+
+
+.ImagemIntefaceIntuitivaBaixo {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 3em;
+    
+}
+
+.mulherNoSofa {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    padding-top: 8em;
+
+}
+.telaPiscando{
+    position: absolute;
+    transform: translate(-327%,-670%);
+    animation: fadeIn 1s infinite alternate;
+}
+
+
+
+
+
+.tituloMotorista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celularpequeno {
+    display: none;
+
+}
+
+.bandidoPequeno {
+    display: none;
+}
+
+
+.mulherNoSofaPequeno {
+
+    display: none;
+}
+.telaPiscandoPequena{
+   display: none;
+}
+
+
+.testeTransicacao{
+
+    transition: margin-left 1s;
+}
+.tituloFacilidades{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 431px) {
+
+    .telaPiscando{
+        display: none;
+    }
+.telaPiscandoPequena{
+    display: block;
+    position: absolute;
+    transform: translate(-328%,-815%);
+    animation: fadeIn 1s infinite alternate;
+}
+    
+    .celularInterfaceIntuitiva {
+        display: none;
+    }
+
+    .gridInterfaceIntuitiva {
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 4em;
+
+        display: grid;
+        grid-template-columns: 1fr 100px;
+        border: 0px;
+        border-top: 2px solid #7C7C7C;
+        border-bottom: 2px solid #7C7C7C;
+        border-radius: 0px;
+        padding: 0em 0em;
+        padding: 2.5em;
+
+
+    }
+
+    .gridConteudoInterfaceIntuitiva {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 0em;
+        
+
+    }
+
+    .celularpequeno {
+        display: block;
+        animation: flutuar 2s infinite alternate 
+        cubic-bezier(0.5, 0.05, 0.1, 0.3);
+        filter: drop-shadow(5px 10px 10px rgba(0,0,0,0.5));
+      
+        
+
+    }
+    .celularPequenoAlinhar{
+        display: flex;
+        margin-right: 1em;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .gridConteudoInterfaceIntuitiva1 {
+        display: flex;
+       
+       padding: 0em 1em 1em 0em;
+        margin: 0em;
+
+
+
+    }
+
+    .tituloGrid {
+        width: 200px;
+        padding-bottom: 1em;
+    }
+
+    .imagemBandidoGrande {
+        display: none;
+    }
+
+
+    .bandidoPequeno {
+        display: block;
+    }
+
+
+    .mulherNoSofa {
+        display: none;
+    }
+
+    .mulherNoSofaPequeno {
+        display: block;
+    }
+
+    .sectionBaixoInterfaceIntuitiva {
+        display: grid;
+        padding: 1em;
+        margin: 0 0em;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+
+
+    }
+
+    .textoIntefaceIntuitivaBaixo {
+        padding-bottom: 1em;
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--cor-texto);
+    }
+
+    .borderInterfaceIntuitiva {
+        border: 2px solid var(--cor-borda);
+        border-radius: 22px;
+        padding: 0 1em;
+        padding-top: 1em;
+    }
+
+
+
+
+}
