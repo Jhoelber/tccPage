@@ -1,0 +1,111 @@
+.rodape {
+    background-color: black;
+    color:var(--cor-branca);
+     padding: 20px;
+        height: 300px;
+        border-top: 2px  solid #908e8e
+
+}
+
+
+.footerConteudo {
+    display: flex;
+    margin-top: 10em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerConteudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.footerImagem{
+    padding: 2em;
+}
+.footerCentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 431px) {
+
+    .rodape {
+        background-color: black;
+        color: var(--cor-branca);
+         padding: 0;
+            height: 100%;
+           
+    
+    }
+    
+.marcaTopoRodape{
+    color: var(--cor-branca);
+        font-weight: 400;
+        font-size: 16px;
+        align-items: center;
+        padding: 1em;
+        font-family: inter;
+}
+
+.vanTopo{
+    width: 40px;
+}
+
+.footerConteudo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    display: flex;
+    width: 100px;
+   padding: 0px;
+
+}
+
+.footerConteudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+
+
+.alinhasCentro{
+display: flex;
+margin-top: 1em;
+padding-left: 1em;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.footerImagem{
+    width: 22px;
+    padding: 0;
+    
+}
+
+.textoFooter{
+    font-size: 12px;
+    width: 200px;
+    padding-left: 1em;
+    
+}
+
+
+
+
+
+
+
+
+}
+
